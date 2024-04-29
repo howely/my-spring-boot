@@ -1,4 +1,4 @@
-package cn.howe.api.health;
+package org.example.api.health;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping
     public String hello() {
-        return "Hello Spring-Boot";
+        return "Hello Security Demo";
     }
 }

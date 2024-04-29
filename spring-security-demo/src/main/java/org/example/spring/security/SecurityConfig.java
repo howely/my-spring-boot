@@ -1,4 +1,4 @@
-package cn.howe.spring.security;
+package org.example.spring.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

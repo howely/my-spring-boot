@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/my-spring-boot?useUnicode=true&characterEncoding=UTF-8
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: org.example.entity
