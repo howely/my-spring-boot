@@ -8,8 +8,8 @@
   <packaging>pom</packaging>
   <modules>
     <module>spring-security-demo</module>
-      <module>register-bean</module>
-      <module>mybatis-mapper</module>
+      <module>register-bean-demo</module>
+      <module>mybatis-demo</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>

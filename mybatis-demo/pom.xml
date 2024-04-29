@@ -7,7 +7,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mybatis-mapper</artifactId>
+    <artifactId>mybatis-demo</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>${postgres.version}</version> <!-- 根据实际情况替换为最新版本 -->
+            <version>${postgres.version}</version>
         </dependency>
 
         <dependency>

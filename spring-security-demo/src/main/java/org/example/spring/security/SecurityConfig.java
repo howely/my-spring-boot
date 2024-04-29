@@ -26,7 +26,7 @@ public class SecurityConfig {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        // 在内存中配置用户名、密码和角色信息
+        // config username and password in memory
         auth
                 .inMemoryAuthentication()
                 .withUser("test").password(new BCryptPasswordEncoder().encode("123456")).roles("USER");
